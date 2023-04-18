@@ -1,0 +1,57 @@
+@import "../../style/Colors_And_Mixins";
+
+#Personal_cabinet
+{
+  width: 1300px;
+  height: 1469px;
+  background-color: $BackgroundPersonalCabinet;
+  @include FlexColumnStartCenter();
+  > img
+  {
+    z-index: 1;
+    position: relative;
+    top: 12px;
+    left: 18px;
+    width: 1300px;
+    height: 273px;
+    border-radius: 15px;
+  }
+  > div
+  {
+    top: -136px;
+    position: relative;
+    z-index: 2;
+    width: 1230px;
+    > div {
+      background-color: $BlockPersonalCabinet;
+      border-radius: 20px;
+    }
+    > #InfoBlock
+    {
+      width: 1230px;
+      height: 320px;
+      @include FlexRowStartCenter();
+      > div:nth-child(1)
+      {
+        width: 190px;
+        height: 230px;
+        margin-left: 51px;
+        border: 1px solid white;
+      }
+      > div:nth-child(2)
+      {
+        width: 308px;
+        height: 255px;
+        margin-left: 43px;
+        border: 1px solid white;
+      }
+      > div:nth-child(3)
+      {
+        width: 314px;
+        height: 255px;
+        margin-left: 126px;
+        border: 1px solid white;
+      }
+    }
+  }
+}

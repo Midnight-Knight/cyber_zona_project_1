@@ -1,0 +1,83 @@
+@import "../../style/Colors_And_Mixins";
+
+header
+{
+  position: sticky;
+  top: 0;
+  z-index: 9;
+  width: 100%;
+  height: 90px;
+  background-color: $Header;
+  @include FlexRowCenterCenter();
+  > div
+  {
+    width: 1300px;
+    height: 100%;
+    position: relative;
+    left: 18px;
+    @include FlexRowBetweenCenter();
+    > #MainHeader
+    {
+      width: 964px;
+      height: 100%;
+      @include FlexRowBetweenCenter();
+      > img
+      {
+        width: 49px;
+        height: 49px;
+        transition: 0.5s transform;
+        > &:hover
+        {
+          transform: scale(1.25);
+        }
+      }
+      > nav
+      {
+        width: 858px;
+        height: 100%;
+        @include FlexRowBetweenCenter();
+        > button
+        {
+          height: 100%;
+          color: $TextWhiteA;
+          background-color: rgba(0,0,0,0);
+          transition: 0.5s color;
+          > &:hover
+          {
+            color: $TextWhite;
+          }
+        }
+      }
+    }
+    > #LoginDiv
+    {
+      width: 128px;
+      height: 39px;
+      > button
+      {
+        width: 128px;
+        height: 39px;
+        border-radius: 46px;
+        text-align: center;
+        color: $TextWhite;
+      }
+      > #Login
+      {
+        background: $ButtonOrange;
+      }
+      > #LoginGradient
+      {
+        z-index: 10;
+        background: $ButtonOrangeLinearGradient;
+        position: absolute;
+        transform: translateX(-128px);
+        opacity: 0;
+        transition: 0.5s opacity;
+        > &:hover
+        {
+          opacity: 1;
+        }
+      }
+    }
+  }
+}

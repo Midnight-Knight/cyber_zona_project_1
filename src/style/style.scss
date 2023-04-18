@@ -1,0 +1,32 @@
+@import "Colors_And_Mixins";
+
+@font-face {
+  font-family: 'Ubuntu';
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  src: url("../fonts/Ubuntu/Ubuntu-Regular.ttf");
+}
+
+button, button:active, button:focus {
+  border: none;
+}
+
+*
+{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Ubuntu';
+}
+
+body
+{
+  min-width: 1336px+36px+36px;
+}
+
+.App
+{
+  background-color: $Background;
+  @include FlexColumnStartCenter();
+}

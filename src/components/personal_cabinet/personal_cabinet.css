@@ -26,31 +26,5 @@
   background-color: rgb(25, 25, 25);
   border-radius: 20px;
 }
-#Personal_cabinet > div > #InfoBlock {
-  width: 1230px;
-  height: 320px;
-  display: flex;
-  flex-direction: row;
-  justify-content: flex-start;
-  align-items: center;
-}
-#Personal_cabinet > div > #InfoBlock > div:nth-child(1) {
-  width: 190px;
-  height: 230px;
-  margin-left: 51px;
-  border: 1px solid white;
-}
-#Personal_cabinet > div > #InfoBlock > div:nth-child(2) {
-  width: 308px;
-  height: 255px;
-  margin-left: 43px;
-  border: 1px solid white;
-}
-#Personal_cabinet > div > #InfoBlock > div:nth-child(3) {
-  width: 314px;
-  height: 255px;
-  margin-left: 126px;
-  border: 1px solid white;
-}
 
 /*# sourceMappingURL=personal_cabinet.css.map */

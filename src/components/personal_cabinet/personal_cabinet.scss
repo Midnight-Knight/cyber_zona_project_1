@@ -26,32 +26,5 @@
       background-color: $BlockPersonalCabinet;
       border-radius: 20px;
     }
-    > #InfoBlock
-    {
-      width: 1230px;
-      height: 320px;
-      @include FlexRowStartCenter();
-      > div:nth-child(1)
-      {
-        width: 190px;
-        height: 230px;
-        margin-left: 51px;
-        border: 1px solid white;
-      }
-      > div:nth-child(2)
-      {
-        width: 308px;
-        height: 255px;
-        margin-left: 43px;
-        border: 1px solid white;
-      }
-      > div:nth-child(3)
-      {
-        width: 314px;
-        height: 255px;
-        margin-left: 126px;
-        border: 1px solid white;
-      }
-    }
   }
 }

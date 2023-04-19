@@ -1,0 +1,142 @@
+#InfoBlock {
+  width: 1230px;
+  height: 320px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+}
+#InfoBlock > div:nth-child(1) {
+  width: 190px;
+  height: 230px;
+  margin-left: 51px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+#InfoBlock > div:nth-child(1) > img {
+  width: 190px;
+  height: 190px;
+  border-radius: 100%;
+  background-color: rgba(0, 0, 0, 0);
+  background-image: url("./../../image/NoPhoto.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 70%;
+}
+#InfoBlock > div:nth-child(1) > div {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+#InfoBlock > div:nth-child(1) > div > #Ellipse {
+  width: 12px;
+  height: 12px;
+  border-radius: 100%;
+  margin-right: 5px;
+}
+#InfoBlock > div:nth-child(1) > div > p {
+  font-family: Montserrat;
+  margin-left: 5px;
+}
+#InfoBlock > div:nth-child(2) {
+  height: 255px;
+  margin-left: 43px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+#InfoBlock > div:nth-child(2) > div {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+#InfoBlock > div:nth-child(2) > div > #RowNicknameAndTag {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+}
+#InfoBlock > div:nth-child(2) > div > #RowNicknameAndTag > #Nickname {
+  font-family: Ubuntu;
+  font-size: 32px;
+  line-height: 36.77px;
+}
+#InfoBlock > div:nth-child(2) > div > #RowNicknameAndTag > #Tag {
+  font-family: Montserrat;
+  color: rgb(255, 153, 0);
+  margin-left: 67px;
+}
+#InfoBlock > div:nth-child(2) > div > #FullName {
+  margin-top: 2px;
+  font-family: Montserrat;
+}
+#InfoBlock > div:nth-child(2) > div > #ColumnSocialNetworks {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+#InfoBlock > div:nth-child(2) > div > #ColumnSocialNetworks > div > img {
+  width: 30px;
+  height: 30px;
+}
+#InfoBlock > div:nth-child(2) > div > #ColumnSocialNetworks > div > p {
+  margin-left: 20px;
+  font-family: Montserrat;
+}
+#InfoBlock > div:nth-child(2) > div > #ColumnSocialNetworks > div:nth-child(n+1) {
+  margin-top: 12px;
+}
+#InfoBlock > div:nth-child(2) > #ButtonInfoBlock {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+#InfoBlock > div:nth-child(2) > #ButtonInfoBlock > button {
+  width: 146px;
+  height: 35px;
+  border-radius: 20px;
+  text-align: center;
+}
+#InfoBlock > div:nth-child(2) > #ButtonInfoBlock > button:nth-child(1) {
+  background-color: rgba(0, 0, 0, 0);
+  border: 2px solid rgb(255, 153, 0);
+  color: rgb(255, 153, 0);
+}
+#InfoBlock > div:nth-child(2) > #ButtonInfoBlock > button:nth-child(2) {
+  margin-left: 15px;
+  background-color: rgb(255, 153, 0);
+  color: rgb(0, 0, 0);
+}
+#InfoBlock > div:nth-child(3) {
+  height: 255px;
+  margin-left: 126px;
+}
+#InfoBlock > div:nth-child(3) > p {
+  font-family: Montserrat;
+  font-size: 20px;
+  line-height: 24.38px;
+}
+#InfoBlock > div:nth-child(3) > div > p {
+  font-family: Montserrat;
+  color: rgb(255, 255, 255);
+}
+#InfoBlock > div:nth-child(3) > div > p > span {
+  font-family: Montserrat;
+  color: rgb(255, 153, 0);
+}
+#InfoBlock > div:nth-child(3) > div:nth-child(1) {
+  margin-top: 30px;
+}
+#InfoBlock > div:nth-child(3) > div:nth-child(n+1) {
+  margin-top: 15px;
+}
+
+/*# sourceMappingURL=InfoBlock.css.map */

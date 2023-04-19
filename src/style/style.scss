@@ -8,12 +8,31 @@
   src: url("../fonts/Ubuntu/Ubuntu-Regular.ttf");
 }
 
+@font-face {
+  font-family: 'Montserrat';
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19.5px;
+  src: url("../fonts/Montserrat/Montserrat-VariableFont_wght.ttf");
+}
+
+.Online
+{
+  background-color: $ButtonOrange;
+}
+
+.Offline, .Loading
+{
+  background-color: $Gray;
+}
+
 button, button:active, button:focus {
   border: none;
 }
 
 *
 {
+  color: $TextWhite;
   margin: 0;
   padding: 0;
   box-sizing: border-box;

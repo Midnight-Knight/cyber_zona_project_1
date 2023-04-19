@@ -1,0 +1,152 @@
+@import "../../style/Colors_And_Mixins";
+
+
+
+#InfoBlock
+{
+  width: 1230px;
+  height: 320px;
+  @include FlexRowStartCenter();
+  > div:nth-child(1)
+  {
+    width: 190px;
+    height: 230px;
+    margin-left: 51px;
+    @include FlexColumnBetweenCenter();
+    > img
+    {
+      width: 190px;
+      height: 190px;
+      border-radius: 100%;
+      background-color: rgba(0,0,0,0);
+      background-image: url("./../../image/NoPhoto.svg");
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: 70%;
+    }
+    > div
+    {
+      @include FlexRowCenterCenter();
+      > #Ellipse
+      {
+        width: 12px;
+        height: 12px;
+        border-radius: 100%;
+        margin-right: 5px;
+      }
+      > p
+      {
+        font-family: Montserrat;
+        margin-left: 5px;
+      }
+    }
+  }
+  > div:nth-child(2)
+  {
+    height: 255px;
+    margin-left: 43px;
+    @include FlexColumnBetweenCenter();
+    > div
+    {
+      width: 100%;
+      @include FlexColumnStartStart();
+      > #RowNicknameAndTag
+      {
+        @include FlexRowStartCenter();
+        > #Nickname
+        {
+          font-family: Ubuntu;
+          font-size: 32px;
+          line-height: 36.77px;
+        }
+        > #Tag
+        {
+          font-family: Montserrat;
+          color: $ButtonOrange;
+          margin-left: 67px;
+        }
+      }
+      > #FullName
+      {
+        margin-top: 2px;
+        font-family: Montserrat;
+      }
+      > #ColumnSocialNetworks
+      {
+        @include FlexColumnStartStart();
+        > div
+        {
+          > img
+          {
+            width: 30px;
+            height: 30px;
+          }
+          > p
+          {
+            margin-left: 20px;
+            font-family: Montserrat;
+          }
+          > &:nth-child(n+1)
+          {
+            margin-top: 12px;
+          }
+        }
+      }
+    }
+    > #ButtonInfoBlock
+    {
+      @include FlexRowBetweenCenter();
+      > button
+      {
+        width: 146px;
+        height: 35px;
+        border-radius: 20px;
+        text-align: center;
+        > &:nth-child(1)
+        {
+          background-color: rgba(0,0,0,0);
+          border: 2px solid $ButtonOrange;
+          color: $ButtonOrange;
+        }
+        > &:nth-child(2)
+        {
+          margin-left: 15px;
+          background-color: $ButtonOrange;
+          color: $Black;
+        }
+      }
+    }
+  }
+  > div:nth-child(3)
+  {
+    height: 255px;
+    margin-left: 126px;
+    > p
+    {
+      font-family: Montserrat;
+      font-size: 20px;
+      line-height:24.38px;
+    }
+    > div
+    {
+      > p
+      {
+        font-family: Montserrat;
+        color: $TextWhite;
+        > span
+        {
+          font-family: Montserrat;
+          color: $ButtonOrange;
+        }
+      }
+      > &:nth-child(1)
+      {
+        margin-top: 30px;
+      }
+      > &:nth-child(n+1)
+      {
+        margin-top: 15px;
+      }
+    }
+  }
+}

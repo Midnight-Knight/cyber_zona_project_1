@@ -1,7 +1,5 @@
 @import "../../style/Colors_And_Mixins";
 
-
-
 #InfoBlock
 {
   width: 1230px;
@@ -36,6 +34,7 @@
       }
       > p
       {
+        text-transform: lowercase;
         font-family: Montserrat;
         margin-left: 5px;
       }
@@ -55,6 +54,7 @@
         @include FlexRowStartCenter();
         > #Nickname
         {
+          text-transform: uppercase;
           font-family: Ubuntu;
           font-size: 32px;
           line-height: 36.77px;
@@ -76,6 +76,7 @@
         @include FlexColumnStartStart();
         > div
         {
+          @include FlexRowStartCenter();
           > img
           {
             width: 30px;
@@ -98,6 +99,7 @@
       @include FlexRowBetweenCenter();
       > button
       {
+        text-transform: uppercase;
         width: 146px;
         height: 35px;
         border-radius: 20px;

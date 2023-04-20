@@ -1,4 +1,6 @@
 #InfoBlock {
+  background-color: rgb(25, 25, 25);
+  border-radius: 20px;
   width: 1230px;
   height: 320px;
   display: flex;

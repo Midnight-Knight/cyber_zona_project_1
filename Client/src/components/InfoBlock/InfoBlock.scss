@@ -2,6 +2,8 @@
 
 #InfoBlock
 {
+  background-color: $BlockPersonalCabinet;
+  border-radius: 20px;
   width: 1230px;
   height: 320px;
   @include FlexRowStartCenter();

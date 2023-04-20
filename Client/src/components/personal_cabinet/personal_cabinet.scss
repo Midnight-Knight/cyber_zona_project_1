@@ -22,9 +22,12 @@
     position: relative;
     z-index: 2;
     width: 1230px;
-    > div {
-      background-color: $BlockPersonalCabinet;
-      border-radius: 20px;
+    > #DivLine1
+    {
+      margin-top: 33px;
+      @include FlexRowStartCenter();
+      height: 362px;
+      width: 100%;
     }
   }
 }

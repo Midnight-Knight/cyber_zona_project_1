@@ -7,6 +7,7 @@ $ButtonOrangeLinearGradient: linear-gradient(0deg, rgba(255, 107, 0, 0.8) 0.59%,
 $BackgroundPersonalCabinet: rgba(12, 12, 12, 0.8);
 $BlockPersonalCabinet: rgba(25,25,25,1);
 $Gray: rgba(116,116,116,1);
+$GrayAD: rgba(116,116,116,0.1);
 $Black: rgba(0,0,0,1);
 
 @mixin FlexRowCenterCenter()
@@ -63,4 +64,12 @@ $Black: rgba(0,0,0,1);
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
+}
+
+@mixin FlexColumnBetweenStart()
+{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
 }

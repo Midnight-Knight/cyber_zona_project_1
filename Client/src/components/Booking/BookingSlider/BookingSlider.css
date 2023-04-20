@@ -1,0 +1,26 @@
+#BookingSlider {
+  width: 623px;
+  height: 362px;
+  background-color: rgb(25, 25, 25);
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+#BookingSlider > p {
+  font-family: Ubuntu;
+  font-size: 24px;
+  line-height: 27.58px;
+  text-transform: uppercase;
+  margin-top: 34px;
+  margin-left: 47px;
+}
+
+.Slider540 {
+  width: 540px;
+  margin-left: 42px;
+  margin-top: 18px;
+}
+
+/*# sourceMappingURL=BookingSlider.css.map */

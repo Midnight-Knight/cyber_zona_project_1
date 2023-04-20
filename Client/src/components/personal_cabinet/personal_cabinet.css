@@ -22,9 +22,14 @@
   z-index: 2;
   width: 1230px;
 }
-#Personal_cabinet > div > div {
-  background-color: rgb(25, 25, 25);
-  border-radius: 20px;
+#Personal_cabinet > div > #DivLine1 {
+  margin-top: 33px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  height: 362px;
+  width: 100%;
 }
 
 /*# sourceMappingURL=personal_cabinet.css.map */

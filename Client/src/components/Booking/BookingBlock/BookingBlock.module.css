@@ -1,0 +1,71 @@
+.BlockBooking {
+  width: 180px !important;
+  height: 235px !important;
+  display: flex !important;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+.BlockBooking > div {
+  width: 170px;
+  height: 195px;
+  background-color: rgba(116, 116, 116, 0.1);
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+.BlockBooking > div > * {
+  width: 100%;
+  font-family: Montserrat;
+  font-weight: 600;
+  text-align: center;
+}
+.BlockBooking > div > hr {
+  margin-top: 7px;
+  width: 139px;
+  color: rgba(255, 255, 255, 0.5);
+}
+.BlockBooking > button {
+  width: 170px;
+  height: 30px;
+  background-color: rgb(255, 153, 0);
+  border-radius: 10px;
+  font-family: Montserrat;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 17.07px;
+  color: rgb(0, 0, 0);
+}
+
+.date {
+  margin-top: 20px;
+  color: rgb(255, 153, 0);
+  font-size: 14px;
+  line-height: 17.07px;
+}
+
+.unit {
+  margin-top: 20px;
+  color: rgb(255, 255, 255);
+  font-size: 14px;
+  line-height: 17.07px;
+}
+
+.number {
+  margin-top: 14px;
+  color: rgb(255, 255, 255);
+  font-size: 24px;
+  line-height: 29.26px;
+}
+
+.time {
+  margin-top: 19px;
+  color: rgb(255, 153, 0);
+  font-size: 14px;
+  line-height: 17.07px;
+}
+
+/*# sourceMappingURL=BookingBlock.module.css.map */

@@ -35,8 +35,19 @@ app.get('/api/get/profile', (req, res) => {
 app.get('/api/get/booking', (req, res) => {
     const data = {
         array: [
-            //{date:"21 апреля",unit:"PC",number:12,time:"9:00-10:30"},
-            //{date:"22 апреля",unit:"PC",number:12,time:"10:30-12:30"}
+            {date:"21 апреля",unit:"PC",number:12,time:"9:00-10:30"},
+            {date:"22 апреля",unit:"PC",number:12,time:"10:30-12:30"}
+        ]
+    };
+    res.json(data);
+})
+
+app.get('/api/get/tournaments', (req, res) => {
+    const data = {
+        array: [
+            {image:`http://localhost:${PORT}/block.png`,title:"DOTA 2",status:"Идёт регистрация",date:"17.10-20.11"},
+            {image:`http://localhost:${PORT}/block.png`,title:"CS:GO",status:"Идёт регистрация",date:"22.10-14.11"},
+            {image:`http://localhost:${PORT}/block.png`,title:"VALORANT",status:"Идёт регистрация",date:"08.10-02.11"}
         ]
     };
     res.json(data);

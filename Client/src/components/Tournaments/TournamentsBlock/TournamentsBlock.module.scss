@@ -10,6 +10,7 @@
     width: 147px;
     height: 235px;
     border-radius: 30px;
+    background-color: $GrayAD;
     @include FlexColumnStartCenter();
     > p
     {

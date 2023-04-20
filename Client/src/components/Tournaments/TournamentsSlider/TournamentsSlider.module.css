@@ -1,0 +1,44 @@
+.TournamentsSlider {
+  width: 584px;
+  height: 362px;
+  border-radius: 20px;
+  background-color: rgb(25, 25, 25);
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+.TournamentsSlider > div:nth-child(1) {
+  margin-top: 34px;
+  margin-left: 57px;
+  width: 376px;
+  height: 31px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.TournamentsSlider > div:nth-child(1) > p {
+  font-family: Ubuntu;
+  font-size: 24px;
+  line-height: 27.58px;
+  text-transform: uppercase;
+}
+.TournamentsSlider > div:nth-child(1) > button {
+  width: 29px;
+  height: 29px;
+  background-color: rgba(0, 0, 0, 0);
+  background-image: url("../../../image/gear.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  margin-right: 211px;
+}
+
+.Slider486 {
+  width: 471px;
+  margin-left: 49.5px;
+  margin-top: 18px;
+}
+
+/*# sourceMappingURL=TournamentsSlider.module.css.map */

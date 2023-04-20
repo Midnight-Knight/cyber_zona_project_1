@@ -3,6 +3,7 @@ import "./personal_cabinet.css";
 import DivImage from "./../../image/image_80_2-gigapixel-art-scale-4_00x.png";
 import {InfoBlock} from "../InfoBlock/InfoBlock";
 import {BookingSlider} from "../Booking/BookingSlider/BookingSlider";
+import {TournamentsSlider} from "../Tournaments/TournamentsSlider/TournamentsSlider";
 
 export const Personal_cabinet = () => {
     return (
@@ -12,6 +13,7 @@ export const Personal_cabinet = () => {
                 <InfoBlock/>
                 <div id="DivLine1">
                     <BookingSlider/>
+                    <TournamentsSlider/>
                 </div>
                 <div id="DivLine2">
 

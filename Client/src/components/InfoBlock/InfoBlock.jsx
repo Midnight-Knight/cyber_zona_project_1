@@ -23,7 +23,7 @@ export const InfoBlock = () => {
         async function LoadingInfo()
         {
             try {
-                const response = await axios.get('http://localhost:2999/api/get/profile'); // делаем GET-запрос на сервер с параметром responseType, чтобы получить изображение в формате blob
+                const response = await axios.get('http://localhost:2999/api/get/profile');
                 const imgUrl = await axios.get(response.data.Image, { responseType: 'blob' });
                 SetImage(await window.URL.createObjectURL(new Blob([imgUrl.data])));
 

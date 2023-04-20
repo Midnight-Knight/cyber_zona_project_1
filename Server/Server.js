@@ -32,6 +32,16 @@ app.get('/api/get/profile', (req, res) => {
     res.json(data);
 })
 
+app.get('/api/get/booking', (req, res) => {
+    const data = {
+        array: [
+            //{date:"21 апреля",unit:"PC",number:12,time:"9:00-10:30"},
+            //{date:"22 апреля",unit:"PC",number:12,time:"10:30-12:30"}
+        ]
+    };
+    res.json(data);
+})
+
 app.post('/api/registration', (req,res) => {
     res.status(200).json({})
 })

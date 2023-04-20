@@ -1,0 +1,62 @@
+@import "../../../style/Colors_And_Mixins";
+
+.TournamentsBlock
+{
+  width: 162px !important;
+  height: 235px !important;
+  @include FlexColumnStartCenter();
+  > div
+  {
+    width: 147px;
+    height: 235px;
+    border-radius: 30px;
+    @include FlexColumnStartCenter();
+    > p
+    {
+      position: absolute;
+      z-index: 3;
+      > &:nth-child(1)
+      {
+        font-family: Ubuntu;
+        font-weight: 700;
+        font-size: 12px;
+        line-height: 13.75px;
+        transform: translateY(108px);
+      }
+      > &:nth-child(2)
+      {
+        font-family: Montserrat;
+        font-weight: 500;
+        font-size: 12px;
+        line-height: 13.75px;
+        transform: translateY(176px);
+      }
+      > &:nth-child(3)
+      {
+        font-family: Montserrat;
+        font-weight: 600;
+        font-size: 15px;
+        line-height: 17.19px;
+        transform: translateY(200px);
+        color: $ButtonOrange;
+      }
+    }
+    > img
+    {
+      position: absolute;
+      width: 147px;
+      height: 236px;
+      border-radius: 30px;
+    }
+    > &:after
+    {
+      width: 147px;
+      height: 236px;
+      content: "";
+      position: absolute;
+      background: linear-gradient(180deg, rgba(0, 0, 0, 0) 50.13%, rgba(0, 0, 0, 0.83) 99.99%, #000000 100%);;
+      z-index: 2;
+      border-radius: 30px;
+    }
+  }
+}

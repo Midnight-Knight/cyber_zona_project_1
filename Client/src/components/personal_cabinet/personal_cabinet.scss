@@ -25,7 +25,7 @@
     > #DivLine1
     {
       margin-top: 33px;
-      @include FlexRowStartCenter();
+      @include FlexRowBetweenCenter();
       height: 362px;
       width: 100%;
     }

@@ -53,6 +53,18 @@ app.get('/api/get/tournaments', (req, res) => {
     res.json(data);
 })
 
+app.get('/api/get/teams', (req, res) => {
+    const data = {
+        array: [
+            {image:`http://localhost:${PORT}/minecraft.jpg`,name:"barbaRiki team 1",number:1},
+            {image:`http://localhost:${PORT}/hogwarts.jpg`,name:"barbaRiki team 2",number:2},
+            //{image:`http://localhost:${PORT}/minecraft.jpg`,name:"barbaRiki team 3",number:3},
+            //{image:`http://localhost:${PORT}/hogwarts.jpg`,name:"barbaRiki team 4",number:4},
+        ]
+    };
+    res.json(data);
+})
+
 app.post('/api/registration', (req,res) => {
     res.status(200).json({})
 })

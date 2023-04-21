@@ -1,0 +1,37 @@
+@import "../../../../style/Colors_And_Mixins";
+
+.TeamsBlock
+{
+  margin-bottom: 18px;
+  height: 55px;
+  width: 529px;
+  @include FlexRowStartCenter();
+  > img
+  {
+    width: 55px;
+    height: 55px;
+    border-radius: 55px;
+    border: 2px solid $ButtonOrange;
+  }
+  > div
+  {
+    margin-left: 13px;
+    > p:nth-child(1)
+    {
+      color: $TextWhite;
+      font-family: Ubuntu;
+      font-weight: 400;
+      font-size: 20px;
+      line-height: 23px;
+
+    }
+    > p:nth-child(2)
+    {
+      color: $ButtonOrange;
+      font-family: Montserrat;
+      font-weight: 500;
+      font-size: 12px;
+      line-height: 15px;
+    }
+  }
+}

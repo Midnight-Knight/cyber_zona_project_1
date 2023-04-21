@@ -1,0 +1,95 @@
+.CommonBlock {
+  width: 632px;
+  height: 331px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+.CommonBlock > div:nth-child(1) {
+  height: 25px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+}
+.CommonBlock > div:nth-child(2) {
+  width: 623px;
+  height: 284px;
+  background-image: url("../../../image/Rectangle 2893.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  overflow: hidden;
+}
+
+.ButtonTeams {
+  width: 91px;
+  height: 100%;
+  margin-left: 37px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  background-color: rgba(0, 0, 0, 0);
+}
+.ButtonTeams > hr {
+  width: 88px;
+  height: 1px;
+  transition: 0.15s color, 0.15s background-color;
+}
+.ButtonTeams > p {
+  text-transform: uppercase;
+  height: 20px;
+  font-family: Montserrat;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 19.5px;
+  transition: 0.25s color;
+}
+
+.ButtonFriends {
+  width: 113px;
+  height: 100%;
+  margin-left: 37px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0);
+}
+.ButtonFriends > hr {
+  width: 113px;
+  height: 1px;
+  transition: 0.15s color, 0.15s background-color;
+}
+.ButtonFriends > p {
+  text-transform: uppercase;
+  height: 20px;
+  font-family: Montserrat;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 19.5px;
+  transition: 0.25s color;
+}
+
+.ButtonActive > * {
+  color: rgb(255, 153, 0);
+}
+.ButtonActive > hr {
+  background-color: rgb(255, 153, 0);
+}
+
+.ButtonOffline > * {
+  color: rgb(255, 255, 255);
+}
+.ButtonOffline > hr {
+  background-color: rgb(255, 255, 255);
+}
+.ButtonOffline:hover > hr {
+  color: rgb(255, 153, 0);
+  background-color: rgb(255, 153, 0);
+}
+
+/*# sourceMappingURL=CommonBlock.module.css.map */

@@ -29,5 +29,12 @@
       height: 362px;
       width: 100%;
     }
+    > #DivLine2
+    {
+      margin-top: 23px;
+      @include FlexRowBetweenCenter();
+      height: 331px;
+      width: 100%;
+    }
   }
 }

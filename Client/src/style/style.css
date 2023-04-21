@@ -24,6 +24,10 @@ button, button:active, button:focus {
   border: none;
 }
 
+hr {
+  border: none;
+}
+
 * {
   color: rgb(255, 255, 255);
   margin: 0;
@@ -33,7 +37,7 @@ button, button:active, button:focus {
 }
 
 body {
-  min-width: 1408px;
+  min-width: 1372px;
 }
 
 .App {

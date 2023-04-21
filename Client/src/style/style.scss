@@ -30,6 +30,11 @@ button, button:active, button:focus {
   border: none;
 }
 
+hr
+{
+  border: none;
+}
+
 *
 {
   color: $TextWhite;
@@ -41,7 +46,7 @@ button, button:active, button:focus {
 
 body
 {
-  min-width: 1336px+36px+36px;
+  min-width: 1336px+36px;
 }
 
 .App

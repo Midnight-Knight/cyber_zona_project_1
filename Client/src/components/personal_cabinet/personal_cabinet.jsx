@@ -4,6 +4,7 @@ import DivImage from "./../../image/image_80_2-gigapixel-art-scale-4_00x.png";
 import {InfoBlock} from "../InfoBlock/InfoBlock";
 import {BookingSlider} from "../Booking/BookingSlider/BookingSlider";
 import {TournamentsSlider} from "../Tournaments/TournamentsSlider/TournamentsSlider";
+import {CommonBlock} from "../FriendsAndTeams/CommonBlock/CommonBlock";
 
 export const Personal_cabinet = () => {
     return (
@@ -16,7 +17,7 @@ export const Personal_cabinet = () => {
                     <TournamentsSlider/>
                 </div>
                 <div id="DivLine2">
-
+                    <CommonBlock/>
                 </div>
             </div>
         </div>

@@ -1,0 +1,103 @@
+@import "../../../style/Colors_And_Mixins";
+
+.CommonBlock
+{
+  width: 632px;
+  height: 331px;
+  @include FlexColumnBetweenStart();
+  > div:nth-child(1)
+  {
+    height: 25px;
+    width: 100%;
+    @include FlexRowStartCenter();
+  }
+  > div:nth-child(2)
+  {
+    width: 623px;
+    height: 284px;
+    background-image: url("../../../image/Rectangle 2893.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+  }
+}
+
+.ButtonTeams
+{
+  width: 91px;
+  height: 100%;
+  margin-left: 37px;
+  @include FlexColumnBetweenStart();
+  background-color: rgba(0,0,0,0);
+  > hr
+  {
+    width: 88px;
+    height: 1px;
+    transition: 0.15s color, 0.15s background-color;
+  }
+  > p
+  {
+    text-transform: uppercase;
+    height: 20px;
+    font-family: Montserrat;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19.5px;
+    transition: 0.25s color;
+  }
+}
+
+.ButtonFriends
+{
+  width: 113px;
+  height: 100%;
+  margin-left: 37px;
+  @include FlexColumnBetweenCenter();
+  background-color: rgba(0,0,0,0);
+  > hr
+  {
+    width: 113px;
+    height: 1px;
+    transition: 0.15s color, 0.15s background-color;
+  }
+  > p
+  {
+    text-transform: uppercase;
+    height: 20px;
+    font-family: Montserrat;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19.5px;
+    transition: 0.25s color;
+  }
+}
+
+.ButtonActive
+{
+  > *
+  {
+    color: $ButtonOrange;
+  }
+  > hr
+  {
+    background-color: $ButtonOrange;
+  }
+}
+
+.ButtonOffline
+{
+  > *
+  {
+    color: $TextWhite;
+  }
+  > hr
+  {
+    background-color: $TextWhite;
+  }
+  > &:hover > hr
+  {
+    color: $ButtonOrange;
+    background-color: $ButtonOrange;
+  }
+}

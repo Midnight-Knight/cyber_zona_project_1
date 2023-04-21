@@ -31,5 +31,14 @@
   height: 362px;
   width: 100%;
 }
+#Personal_cabinet > div > #DivLine2 {
+  margin-top: 23px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  height: 331px;
+  width: 100%;
+}
 
 /*# sourceMappingURL=personal_cabinet.css.map */

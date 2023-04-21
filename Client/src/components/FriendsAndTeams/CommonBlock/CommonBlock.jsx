@@ -2,6 +2,7 @@ import React, {useState} from "react";
 import Style from "./CommonBlock.module.css";
 import classNames from "classnames";
 import {TeamsSlider} from "../Teams/TeamsSlider/TeamsSlider";
+import {FriendsSlider} from "../Friends/FriendsSlider/FriendsSlider";
 
 export const CommonBlock = () => {
     const [TeamsBlock, SetTeamsBlock] = useState(true);
@@ -19,7 +20,7 @@ export const CommonBlock = () => {
                 </button>
             </div>
             <div>
-                <TeamsSlider/>
+                {TeamsBlock === true ? <TeamsSlider/> : <FriendsSlider/>}
             </div>
         </div>
     )

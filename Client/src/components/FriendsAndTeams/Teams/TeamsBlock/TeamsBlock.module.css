@@ -17,6 +17,7 @@
   margin-left: 13px;
 }
 .TeamsBlock > div > p:nth-child(1) {
+  text-transform: uppercase;
   color: rgb(255, 255, 255);
   font-family: Ubuntu;
   font-weight: 400;

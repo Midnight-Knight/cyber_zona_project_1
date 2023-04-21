@@ -1,0 +1,32 @@
+.FriendsBlock {
+  margin-bottom: 19px;
+  height: 45px;
+  width: 264.5px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+}
+.FriendsBlock > img {
+  width: 45px;
+  height: 45px;
+  border-radius: 45px;
+  border: 2px solid rgb(255, 153, 0);
+}
+.FriendsBlock > div {
+  margin-left: 26px;
+}
+.FriendsBlock > div > p:nth-child(1) {
+  text-transform: uppercase;
+  color: rgb(255, 255, 255);
+  font-family: Syncopate;
+}
+.FriendsBlock > div > p:nth-child(2) {
+  color: rgb(255, 153, 0);
+  font-family: Montserrat;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 15px;
+}
+
+/*# sourceMappingURL=FriendsBlock.module.css.map */

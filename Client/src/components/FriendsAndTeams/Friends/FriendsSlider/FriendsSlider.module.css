@@ -1,4 +1,4 @@
-.TeamsSliderInfo {
+.FriendsSliderInfo {
   margin-left: 47px;
   margin-top: 31px;
   display: flex;
@@ -6,20 +6,20 @@
   justify-content: flex-start;
   align-items: flex-start;
 }
-.TeamsSliderInfo > div {
+.FriendsSliderInfo > div {
   display: flex;
   flex-direction: row;
   justify-content: flex-start;
   align-items: center;
 }
-.TeamsSliderInfo > div > p {
+.FriendsSliderInfo > div > p {
   text-transform: uppercase;
-  font-family: Ubuntu;
+  font-family: Montserrat;
   font-weight: 600;
   font-size: 20px;
   line-height: 24.38px;
 }
-.TeamsSliderInfo > div > button {
+.FriendsSliderInfo > div > button {
   margin-left: 18px;
   width: 20px;
   height: 20px;
@@ -27,26 +27,14 @@
   background-repeat: no-repeat;
   background-size: cover;
   background-color: rgba(0, 0, 0, 0);
-}
-.TeamsSliderInfo > div > button:nth-child(2) {
   background-image: url("../../../../image/settings.svg");
 }
-.TeamsSliderInfo > div > button:nth-child(3) {
-  background-image: url("../../../../image/Plus.svg");
-}
-.TeamsSliderInfo > p {
-  margin-top: 9px;
-  font-family: Montserrat;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 19.5px;
-}
 
-.TeamsSlider {
-  height: 128px;
+.FriendsSlider {
+  height: 173px;
   width: 529px;
   margin-left: 47px;
-  margin-top: 31px;
+  margin-top: 21px;
 }
 
-/*# sourceMappingURL=TeamsSlider.module.css.map */
+/*# sourceMappingURL=FriendsSlider.module.css.map */

@@ -65,6 +65,21 @@ app.get('/api/get/teams', (req, res) => {
     res.json(data);
 })
 
+app.get('/api/get/friends', (req, res) => {
+    const data = {
+        array: [
+            {image:`http://localhost:${PORT}/nadllin.jpg`,nickname:"nadllin 1",name:"Надежда Матвиенко 1"},
+            {image:`http://localhost:${PORT}/nadllin.jpg`,nickname:"nadllin 2",name:"Надежда Матвиенко 2"},
+            {image:`http://localhost:${PORT}/nadllin.jpg`,nickname:"nadllin 3",name:"Надежда Матвиенко 3"},
+            {image:`http://localhost:${PORT}/nadllin.jpg`,nickname:"nadllin 4",name:"Надежда Матвиенко 4"},
+            {image:`http://localhost:${PORT}/nadllin.jpg`,nickname:"nadllin 5",name:"Надежда Матвиенко 5"},
+            {image:`http://localhost:${PORT}/nadllin.jpg`,nickname:"nadllin 6",name:"Надежда Матвиенко 6"},
+            {image:`http://localhost:${PORT}/nadllin.jpg`,nickname:"nadllin 7",name:"Надежда Матвиенко 7"}
+        ]
+    };
+    res.json(data);
+})
+
 app.post('/api/registration', (req,res) => {
     res.status(200).json({})
 })

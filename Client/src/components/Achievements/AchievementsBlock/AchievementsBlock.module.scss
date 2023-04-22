@@ -1,0 +1,35 @@
+@import "../../../style/Colors_And_Mixins";
+
+.AchievementsBlock
+{
+  width: 162px !important;
+  height: 235px !important;
+  @include FlexColumnStartCenter();
+  > div
+  {
+    width: 147px;
+    height: 210px;
+    border-radius: 30px;
+    border: 1px solid $ButtonOrange;
+    background-image: url("../../../image/gradient.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    @include FlexColumnStartCenter();
+    > img
+    {
+      margin-top: 37px;
+      width: 116px;
+      height: 116px;
+      border-radius: 116px;
+    }
+    > p
+    {
+      margin-top: 22px;
+      font-family: Montserrat;
+      font-weight: 500;
+      font-size: 15px;
+      line-height: 18.29px;
+    }
+  }
+}

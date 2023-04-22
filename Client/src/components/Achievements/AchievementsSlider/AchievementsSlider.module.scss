@@ -1,0 +1,37 @@
+@import "../../../style/Colors_And_Mixins";
+
+.AchievementsSlider
+{
+  width: 584px;
+  height: 362px;
+  border-radius: 20px;
+  background-color: $BlockPersonalCabinet;
+  @include FlexColumnStartStart();
+  > div:nth-child(1)
+  {
+    margin-top: 34px;
+    margin-left: 57px;
+    width: 376px;
+    height: 31px;
+    @include FlexRowStartCenter();
+    > p
+    {
+      font-family: Ubuntu;
+      font-size: 24px;
+      line-height: 27.58px;
+      text-transform: uppercase;
+      > &:nth-child(2)
+      {
+        margin-left: 12px;
+        color: $ButtonOrange;
+      }
+    }
+  }
+}
+
+.Slider486
+{
+  width: 471px;
+  margin-left: 57-7.5px;
+  margin-top: 18px;
+}

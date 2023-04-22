@@ -5,6 +5,7 @@ import {InfoBlock} from "../InfoBlock/InfoBlock";
 import {BookingSlider} from "../Booking/BookingSlider/BookingSlider";
 import {TournamentsSlider} from "../Tournaments/TournamentsSlider/TournamentsSlider";
 import {CommonBlock} from "../FriendsAndTeams/CommonBlock/CommonBlock";
+import {AchievementsSlider} from "../Achievements/AchievementsSlider/AchievementsSlider";
 
 export const Personal_cabinet = () => {
     return (
@@ -18,6 +19,7 @@ export const Personal_cabinet = () => {
                 </div>
                 <div id="DivLine2">
                     <CommonBlock/>
+                    <AchievementsSlider/>
                 </div>
             </div>
         </div>

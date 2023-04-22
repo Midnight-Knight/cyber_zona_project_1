@@ -80,6 +80,20 @@ app.get('/api/get/friends', (req, res) => {
     res.json(data);
 })
 
+app.get('/api/get/achievements', (req, res) => {
+    const data = {
+        array: [
+            {image:`http://localhost:${PORT}/turtle.png`,achievement:"Черепашка"},
+            {image:`http://localhost:${PORT}/amateur.png`,achievement:"Любитель"},
+            {image:`http://localhost:${PORT}/dota_2_cup.png`,achievement:"Dota 2 CUP"},
+            {image:`http://localhost:${PORT}/turtle.png`,achievement:"Черепашка 2"},
+            {image:`http://localhost:${PORT}/amateur.png`,achievement:"Любитель 2"},
+            {image:`http://localhost:${PORT}/dota_2_cup.png`,achievement:"Dota 2 CUP 2"}
+        ]
+    };
+    res.json(data);
+})
+
 app.post('/api/registration', (req,res) => {
     res.status(200).json({})
 })
